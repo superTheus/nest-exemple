@@ -1,0 +1,30 @@
+$color-primary: #464d6a;
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-primary;
+  color: #fff;
+
+  .main {
+    width: 80%;
+    height: auto;
+    max-width: 1200px;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+      color: #fff;
+      font-size: 23px;
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+
+  label {
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.8;
+    margin: 10px 0;
+  }
+
+  input {
+    background-color: transparent;
+    border-bottom: 1px solid #eee;
+  }
+
+  input:focus {
+    border-bottom: 1px solid rgb(139 92 246);
+  }
+
+  input:focus-visible {
+    background-color: transparent;
+    border-bottom: 1px solid rgb(139 92 246);
+  }
+}
